@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MAinContainer {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: first baseline;
+  grid-template-columns: 20% 50%;
+  grid-template-rows: 100%;
+}
+.ItemElement {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+.ItemElement1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: black !important;
+}
+.containerForImageAndTxt {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 20% 70%;
+}
+.conainertext {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 50%;
+}
+.containerForName {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+}
+.containerForProfession {
+  font-size: 14px;
+  color: #737373;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+}
+.containerForBAckGroundImage {
+  background-image: url(./IMAGEBAck.svg);
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  background-position: center;
+  height: 90vh;
+}
+.LOrem {
+  color: #808080;
+}
+.ElementIntoBAck {
+  width: 22%;
+
+  margin: 0 auto;
+  padding-left: 60%;
+  padding-top: 20%;
+}
+.containerForAnyElement {
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.containerForAnyElement p {
+  font-weight: 200;
+}
+.containerForAnyElement h2 {
+  font-weight: 500;
+}
+.containerForAnyElement2 {
+  display: grid;
+  text-align: justify;
+  margin-top: 50px !important   ;
+  justify-content: space-around !important;
+
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.divConStant {
+  align-items: center;
+  align-self: center;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+}
+.divConStant img {
+  align-items: center;
+  margin-left: 170px;
+}
+.divConStant p{
+    width: 90%;
+    text-align:center ;
+    margin-top: 30px;
+}
+@media (max-width: 750px) {
+  .MAinContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 100%;
+  }
+  .ItemElement {
+    font-size: 30px;
+    text-align: center;
+  }
+  .ItemElement1 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .containerForImageAndTxt {
+    width: 90%;
+    margin-inline: 15%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+  }
+  .ElementIntoBAck {
+    font-size: 18px;
+    width: 70%;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60%;
+    padding-left: 0;
+    color: black;
+  }
+  .LOrem {
+    font-weight: 200 !important;
+    width: 100% !important;
+    font-size: 23px;
+    color: black !important;
+  }
+  .containerForAnyElement2{
+    padding-bottom: 50px !important;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40% 40%;
+    margin: 0 auto !important;
+  }
+  .divConStant img {
+    align-items: center;
+width: 75px;
+margin: 0 auto;
+  }
+  .divConStant p{
+      width: 90%;
+      margin: 0 auto;
+      text-align:center ;
+      margin-top: 30px;
+  }
+}
